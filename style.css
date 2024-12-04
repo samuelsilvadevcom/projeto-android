@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
  /*paleta - #7ae897 #c5ebd6*/
  /*fonts*/
 
@@ -19,10 +20,14 @@
 p{
     text-align: justify;
 }
+body{
+    margin: auto;
+    background-color:#c5ebd6;
+}
 :root{
-    --cor0: #89e8a3;
+    --cor0: #73c388;
     --cor1: #3aa43a;
-    --cor2: #167e16;
+    --cor2: #126212;
     --cor3: #165416; 
     --main-title: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     --special-title: "idroid", display;
@@ -34,6 +39,8 @@ p{
     background-image: linear-gradient(to bottom,var(--cor0), var(--cor2));
     color: white;
     font-weight: 100;
+    width: 100%;
+    margin: auto;
  }
  header>h1{
     font-family: var(--main-title);
@@ -47,7 +54,7 @@ p{
  }
  nav{
     padding: 4px;
-    padding: 4px;
+    margin: auto;
  }
  nav>a{
     font-weight: 600;
@@ -65,9 +72,8 @@ nav>a:hover{
 /*main*/
 
 main{
-    background-color:#c5ebd6;
     max-width: 1200px;
-    min-width: 600px;
+    min-width: 620px;
     margin: auto;
 }
 article{
@@ -124,7 +130,7 @@ main img{
 }
 div.video{
     background-color: var(--cor3);
-    margin: 1em 0%; 
+    margin: 1em auto; 
     width: 100%;
     padding: 0%;
     position: relative;
@@ -170,5 +176,5 @@ footer{
     text-align: center;
     padding: 6px;
     margin-top: 10px;
-    outline: 12px solid #c5ebd6;
+    /*outline: 12px solid #c5ebd6;*/
 }
